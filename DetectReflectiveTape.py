@@ -11,8 +11,8 @@ class DetectReflectiveTape:
     def __init__(self):
         # HSV Color Parameters
         self.hsv_hue = [60.0, 100.0]
-        self.hsv_saturation = [175.0, 255.0]
-        self.hsv_value = [175.0, 255.0]
+        self.hsv_saturation = [175.0, 255.0] # 
+        self.hsv_value = [175.0, 255.0] # 175-255 for 2019, 125-255 for test base
 
         # Erode Parameters
         self.erode_kernal = None
